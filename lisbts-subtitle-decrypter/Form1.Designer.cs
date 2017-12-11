@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.labelInPath = new System.Windows.Forms.Label();
             this.textBoxInPath = new System.Windows.Forms.TextBox();
@@ -162,7 +163,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 31);
             this.label1.TabIndex = 13;
-            this.label1.Text = "Save As:";
+            this.label1.Text = "Save as:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // tableLayoutPanel2
@@ -283,7 +284,7 @@
             // 
             // openFileDialog1
             // 
-            this.openFileDialog1.Filter = "Subtitle files(*.lsb;*.txt)|*.lsb;*.txt";
+            this.openFileDialog1.Filter = "Subtitle files (*.lsb; *.txt)|*.lsb;*.txt";
             // 
             // saveFileDialog1
             // 
@@ -296,6 +297,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(809, 461);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(825, 400);
             this.Name = "Form1";
             this.Text = "LiS BtS Subtitle Decrypter ";

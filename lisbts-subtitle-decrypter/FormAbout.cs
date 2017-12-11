@@ -24,7 +24,7 @@ namespace lisbts_subtitle_decrypter
 
         private void linkLabelUpdates_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            //System.Diagnostics.Process.Start("");
+            System.Diagnostics.Process.Start("https://github.com/ladosha/lisbts-subtitle-decrypter/releases");
         }
 
         private void linkLabelPython_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
